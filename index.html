@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Zel's Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand name" href="#about">Azel Villanueva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#me">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown no-hover" >
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#projF">First Semester</a></li>
+                          <li><a class="dropdown-item" href="#projS">Second Semester</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container me" id="me" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="content-about" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imgs/me1.jpg" class="img-about" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h2>Hello I'm Zel <i class="ph-bold ph-hand-waving"></i></h2>
+                    <h3>BSIT Student</h3>
+                    <p>Here, you'll find the projects I've worked on during my first year.</p>
+                    <div class="home-btn">
+                        <a href="#about" class="btn">About</a>
+                        <a href="#proj" class="btn">Projects</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <div class="wrapper">
+        <div class="tem tem1">
+            <a href="#gc">
+                <img src="imgs/GCR/gc1.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+        <div class="tem tem2">
+            <a href="#CT">
+                <img src="imgs/CT/ct1.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+        <div class="tem tem3">
+            <a href="#lb">
+                <img src="imgs/lbposter.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+        <div class="tem tem4">
+            <a href="#gayuma">
+                <img src="imgs/gayuma.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+        <div class="tem tem5">
+            <a href="#PP">
+                <img src="imgs/proj1/p1-1.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+        <div class="tem tem6">
+            <a href="#OS">
+                <img src="imgs/OS/os1.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+        <div class="tem tem7">
+            <a href="#AC">
+                <img src="imgs/AC/ac1.png" class="card-img-top card-tem" alt="">
+            </a>
+        </div>
+    </div>
+
+
+<!--sample proj
+    <section class="product-category" style="background-color: #e2e2e2; padding-top: 40px; padding-bottom: 40px;">
+        <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" style="scale: 90%;">
+                <div class="container">
+                <div class="d-flex flex-row flex-nowrap">
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                    <div class="card card-product">
+                        <a href="#gc">
+                            <img src="imgs/GCR/gc1.png" class="card-img-top img-card" alt="">
+                        </a>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                    <div class="card card-product">
+                        <a href="#CT">
+                            <img src="imgs/CT/ct1.png" class="card-img-top img-card" alt="">
+                        </a>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                    <div class="card card-product" style="margin-right: 0;">
+                        <a href="#lb">
+                            <img src="imgs/lbposter.png" class="card-img-top img-card" alt="">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item" style="scale: 90%;">
+                <div class="container">
+                    <div class="d-flex flex-row flex-nowrap">
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                        <div class="card card-product">
+                        <a href="#gayuma">
+                            <img src="imgs/gayuma.png" class="card-img-top img-card" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                        <div class="card card-product">
+                        <a href="#PP">
+                            <img src="imgs/proj1/p1-1.png" class="card-img-top img-card" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                        <div class="card card-product" style="margin-right: 0;">
+                        <a href="#OS">
+                            <img src="imgs/OS/os1.png" class="card-img-top img-card" alt="">
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="scale: 90%;">
+                <div class="container">
+                    <div class="d-flex flex-row flex-nowrap">
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                        <div class="card card-product">
+                        <img src="" class="card-img-top img-card">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                        <div class="card card-product">
+                        <a href="#AC"><img src="imgs/AC/ac1.png" class="card-img-top img-card" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-4 col-4 proj">
+                        <div class="card card-product" style="margin-right: 0;">
+                        <img src="" class="card-img-top img-card">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+            <button class="carousel-control-prev btn-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span><i class="fa-solid fa-arrow-left btn-scroll btn-left"></i></span>
+            </button>
+            <button class="carousel-control-next btn-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <i class="fa-solid fa-arrow-right btn-scroll btn-right"></i>
+            </button>
+        </div>
+        </div>
+    </section> 
+
+-->
+
+<!--About Start-->
+    <section class="container about-me" id="about" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="content-about" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imgs/me2.jpg" class="img-about1" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h2>I'm Azel Villanueva,</h2>
+                    <p>a first-year BSIT student at Davao Del Norte State College. During my first year, I've been working on various projects with my classmates. It's been a great experience, and I'm eager to continue learning and exploring more in the field of IT!</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<!--About End-->
+
+<!--First Sem Start-->
+    <div id="projF" style="display: flex; justify-content: center; align-items: center; background-color: #ebebeb; height: 200px;">
+        <h2 style="font-size: 40px; font-weight: 600; color: black;">First Semester</h2>
+    </div><br><br>
+    <section class="container" id="OS" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel" style="display: flex; justify-content: center; align-items: center; scale: 70%;">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    </div>
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                    <div class="carousel-item active">
+                        <img src="imgs/OS/os1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os5.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os6.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os7.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/OS/os8.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>Simple Ordering System</h3>
+                    <p>The Simple Ordering System is simple ordering food system. Users can view the menu, add orders, update or view their order, proceed to payment, and exit. The system handles CRUD operations and generates a receipt upon payment.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="container" id="PP" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="display: flex; justify-content: center; align-items: center; scale: 70%;">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner"  style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="imgs/proj1/p1-1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/proj1/p1-2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/proj1/p1-3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/proj1/p1-4.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/proj1/p1-5.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/proj1/p1-6.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>Purr-fect Pastries</h3>
+                    <p>This business website allows customers to review the food and services at Purr-fect Pastries Café before their visit.</p>
+                    <div class="home-btn">
+                        <a href="https://sites.google.com/view/purr-fectpastries/home" class="btn">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="container" id="lb" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="content-about" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imgs/lbposter.png" class="img-about" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>Love Byte</h3>
+                    <p>Love Byte is an 11-minute short film that skillfully blends elements of romance and comedy. I contributed to this project by assisting in the shoot, editing the film, providing creative input, and designing the poster. I am grateful to have been part of this beautiful project.</p>
+                    <div class="home-btn">
+                        <a href="https://web.facebook.com/watch/?v=735887718451782&rdid=WcysGjZLVEJCosKK" class="btn" style="width: 150px;">Watch Trailer</a>
+                        <a href="https://www.youtube.com/watch?v=98M0Oj_U4wQ" class="btn" style="width: 150px;">Watch Short Film</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="container" id="gayuma" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div class="content-about" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="imgs/gayuma.png" class="img-about" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>MTV Spoof "Gayuma"</h3>
+                    <p>We produced an MTV spoof, recreating the official music video for "Gayuma" by Abra featuring Thyro and Jeriko Aguilar. In this project, I served as the cameraman, assisted with the shooting, provided creative input during the production process.</p>
+                    <div class="home-btn">
+                        <a href="https://fb.watch/sCVxctBFNK/" class="btn" style="width: 150px;">Watch MTV Spoof</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+<!--First Sem End-->
+
+<!--Second Sem Start-->
+    <div id="projS" style="display: flex; justify-content: center; align-items: center; background-color: #ebebeb; height: 200px;">
+        <h2 style="font-size: 40px; font-weight: 600; color: black;">Second Semester</h2>
+    </div><br><br>
+    <section class="container" id="CT" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel" style="display: flex; justify-content: center; align-items: center; scale: 70%;">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        </div>
+                        <div class="carousel-inner"  style="border-radius: 20px;">
+                          <div class="carousel-item active">
+                            <img src="imgs/CT/ct1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct3.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct4.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct5.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct6.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct7.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct8.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct9.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/CT/ct10.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>CashnTrack</h3>
+                    <p>CashnTrack is a budgeting program designed to simplify the process of managing your 
+                        finances. With CashnTrack, you can easily track your income and expenses, helping you 
+                        stay within your budget and achieve your financial goals. Simply input your income and 
+                        expenses, and CashnTrack will automatically calculate your remaining balance also 
+                        record your transactions ang categorize them.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="container" id="gc" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" style="display: flex; justify-content: center; align-items: center; scale: 70%;">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    </div>
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                    <div class="carousel-item active">
+                        <img src="imgs/GCR/gc1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc5.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc6.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc7.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc8.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/GCR/gc9.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>Golden Car Rental Management System</h3>
+                    <p>Golden Car Rental business still use manual methods such as notebooks to record 
+                        their daily transactions, rentals, and sales. The need for a more organized and more 
+                        efficient system, this gives us motivation to develop Golden Car Rental Management 
+                        System. The system will design to enable Golden Car Rental to record and track their 
+                        cars, rentals, and sales electronically, enhancing the quality of management and services 
+                        by the Golden Car Rental Management System.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section class="container" id="AC" style="display: flex; justify-content: center; align-items: center;">
+        <div class="about-us-container">
+        <div class="about-us">
+            <div class="row">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel" style="display: flex; justify-content: center; align-items: center; scale: 70%;">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner"  style="border-radius: 20px;">
+                    <div class="carousel-item active">
+                        <img src="imgs/AC/ac1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/AC/ac2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/AC/ac3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/AC/ac4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/AC/ac5.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/AC/ac6.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6" style="display: flex; align-items: center; justify-content: center;">
+                <div class="content-about">
+                    <h3>AniCom</h3>
+                    <p>Welcome to Anicom, your ultimate destination for discovering the best anime! Whether you’re a seasoned otaku or just beginning your journey into the world of anime, our goal is to guide you through the vibrant and diverse universe of anime series and movies.
+                        At Anicom, we believe that anime is more than just entertainment; it’s an art form that connects people across the globe through compelling stories, breathtaking animation, and unforgettable characters. Our passion for anime drives us to create a comprehensive and user-friendly platform where fans can find personalized recommendations of anime.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#me">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown no-hover" >
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#projF">First Semester</a></li>
+                  <li><a class="dropdown-item" href="#projS">Second Semester</a></li>
+                </ul>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Villanueva, Azel</p>
+    </footer>
+    
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
